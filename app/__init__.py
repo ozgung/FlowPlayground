@@ -1,0 +1,3 @@
+"""
+FlowPlayground application package.
+"""

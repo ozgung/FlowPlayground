@@ -1,0 +1,38 @@
+# Core Dependencies - Actually Used in Codebase
+# FastAPI and web framework
+fastapi>=0.115.2
+uvicorn[standard]>=0.24.0
+
+# HTTP client and async support
+aiohttp>=3.9.1
+aiofiles>=23.2.1
+
+# Data validation and settings
+pydantic>=2.7.0
+pydantic-settings>=2.1.0
+
+# Database and caching
+redis>=5.0.1
+
+# Image processing
+Pillow>=10.1.0
+
+# Gradio for development UI
+gradio>=4.8.0
+
+# Optional Dependencies - Keep for specific use cases
+# File handling (if needed for file type detection)
+python-multipart>=0.0.6  # Required for FastAPI file uploads
+python-magic>=0.4.27     # For file type detection (if used)
+
+# Development and testing (install separately if needed)
+# pytest>=7.4.3
+# pytest-asyncio>=0.21.1
+# pytest-cov>=4.1.0
+# black>=23.11.0
+# isort>=5.12.0
+# mypy>=1.7.1
+# ruff>=0.1.6
+
+# Production server (install separately if needed)
+# gunicorn>=21.2.0

@@ -1,0 +1,24 @@
+# Production Dependencies
+-r requirements.txt
+
+# Production server
+gunicorn>=21.2.0
+
+# Security and authentication (if needed)
+python-jose[cryptography]>=3.3.0
+cryptography>=41.0.7
+passlib[bcrypt]>=1.7.4
+
+# Environment configuration
+python-dotenv>=1.0.0
+
+# Monitoring (optional)
+prometheus-client>=0.19.0
+structlog>=23.2.0
+
+# Background tasks (if implementing)
+celery>=5.3.4
+flower>=2.0.1
+
+# Rate limiting (if needed)
+slowapi>=0.1.9
